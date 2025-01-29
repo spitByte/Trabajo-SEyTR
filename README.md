@@ -46,4 +46,28 @@ La implementación de este sistema en un entorno físico requiere una combinaci�
 6.	Módulo de Comunicación:
    	Para la interacción con el usuario y la transmisión de datos en tiempo real, se podrían utilizar módulos de comunicación inalámbrica o por cable.
 
+CÓMO USAR EL CÓDIGO
 
+1. Descarga los archivos:
+
+Descargar todos los archivos fuente (main.c, motor.c, pert.c, error.c, visualTrack.c y sus respectivos archivos de encabezado).
+
+2. Compila el código
+
+3. Ejecuta el programa
+
+4. Visualiza los valores de seguimiento
+
+El programa mostrará en pantalla los valores de:
+
+visualT: Coordenadas del objetivo generado aleatoriamente.
+
+real: Posición real de la cámara.
+
+error: Diferencia entre la posición deseada y la real.
+
+5. Interrumpe el seguimiento y proporciona coordenadas manuales:
+
+Cuando se presiona el botón de interrupción, el programa detendrá la actualización automática y solicitará al usuario ingresar manualmente las coordenadas X e Y deseadas.
+
+6. Ingresa los valores cuando el programa lo solicite y presiona Enter.
