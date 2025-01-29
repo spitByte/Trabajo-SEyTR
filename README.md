@@ -20,32 +20,6 @@ El sistema incluye las siguientes etapas:
 
 •	Corrección: Se calcula el error comparando la posición deseada con la real.
 
-IMPLEMENTACIÓN EN UN SISTEMA REAL
-
-La implementación de este sistema en un entorno físico requiere una combinación de hardware especializado para garantizar la estabilidad y el control preciso de la cámara. Los principales componentes necesarios serían:
-
-1.	Cámara de Alta Precisión:
-   	Una cámara con estabilización óptica y una alta tasa de fotogramas por segundo (FPS) para mejorar el seguimiento del objetivo en entornos dinámicos.
-  	Ejemplo: Cámaras industriales con sensores CMOS de alta sensibilidad.
-
-2.	Plataforma Móvil y Actuadores:
-   	Un sistema de motores paso a paso o servomotores controlados por un controlador de movimiento permitirá ajustar la posición de la cámara en el plano XY.
-   	Ejemplo: Motores de precisión como los Dynamixel o servomotores de la serie MG995.
-
-3.	Sensores de Posición y Movimiento:
-   	Para obtener retroalimentación precisa, se utilizarían sensores como encoders ópticos, giróscopos y unidades de medición inercial (IMU).
-   	Ejemplo: Encoders rotativos de alta resolución y sensores IMU como el MPU-6050.
-
-4.	Unidad de Procesamiento:
-    Un microcontrolador ejecutará los cálculos en tiempo real y gestionará las interrupciones del sistema.
-   	Ejemplo: controlador ESP32
-
-5.	Sistema de Alimentación:
-   	Fuente de alimentación estable para garantizar la operación continua del sistema.
-
-6.	Módulo de Comunicación:
-   	Para la interacción con el usuario y la transmisión de datos en tiempo real, se podrían utilizar módulos de comunicación inalámbrica o por cable.
-
 CÓMO USAR EL CÓDIGO
 
 1. Descarga los archivos:
