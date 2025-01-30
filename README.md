@@ -4,7 +4,7 @@ Simulación de un sistema de estabilización de seguimiento visual
 INTRODUCCIÓN
 
 Desarrollo de un sistema embebido en tiempo real simulado, cuyo objetivo es estabilizar una cámara que rastrea un objetivo en un plano XY ubicado a 10 metros de distancia que se mueve dentro de un rectángulo de 20x5m con origen en su centro geométrico. El sistema está diseñado como un bucle de control cerrado y está sujeto a un movimiento continuo para simular inestabilidad.
-En cualquier momento, el usuario puede interrumpir el seguimiento visual para ingresar manualmente coordenadas X e Y de un punto al que el sistema deberá apuntar. Esto convierte el sistema en un sistema en tiempo real, ya que responde dinámicamente a la intervención del usuario mediante el uso de interrupciones.
+En cualquier momento, el usuario puede interrumpir el seguimiento visual para ingresar manualmente coordenadas X e Y de un punto al que el sistema deberá apuntar. Esto convierte el sistema en un sistema en tiempo real, ya que responde dinámicamente a la intervención del usuario.
 
 El sistema incluye las siguientes etapas:
 
