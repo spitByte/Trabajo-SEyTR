@@ -42,6 +42,6 @@ CÓMO USAR EL CÓDIGO
 
 5. Interrumpe el seguimiento y proporciona coordenadas manuales:
 
-  Cuando se presiona el botón de interrupción, el programa detendrá la actualización automática y solicitará al usuario ingresar manualmente las coordenadas X e Y       deseadas.
+  Cuando se presiona el botón de interrupción (barra espaciadora), el programa detendrá la actualización automática y solicitará al usuario ingresar manualmente las coordenadas X e Y       deseadas.
 
 6. Ingresa los valores cuando el programa lo solicite y presiona Enter.
