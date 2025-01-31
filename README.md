@@ -9,8 +9,8 @@ En cualquier momento, el usuario puede interrumpir el seguimiento visual para in
 El sistema incluye las siguientes etapas:
 
 •	Entrada: Compuesta por dos tipos de entradas:
-  	Referencia de usuario: Son coordenadas ingresadas manualmente por el usuario, que indican un punto específico al que se desea que la cámara apunte.
-  	Entrada generada aleatoriamente: Representa la posición del objetivo en movimiento, generada de manera aleatoria para simular la detección de un objeto en el entorno.
+  • Referencia de usuario: Son coordenadas ingresadas manualmente por el usuario, que indican un punto específico al que se desea que la cámara apunte.
+  •	Entrada generada aleatoriamente: Representa la posición del objetivo en movimiento, generada de manera aleatoria para simular la detección de un objeto en el entorno.
 
 •	Perturbaciones: Se introducen variaciones aleatorias para simular interferencias del entorno.
 
